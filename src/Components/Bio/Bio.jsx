@@ -1,11 +1,12 @@
 import '../../Assets/Stylesheets/bio.css';
+import placeholder from '../../Assets/Images/placeholder.jpg'
 
 const Bio = () => {
 
   return(
     <div className="bio-container">
       <div className="bio">
-        <img className="bio-image" src={'../../Assets/Images/placeholder.png'} alt="My face :D" />
+        <img className="bio-image" src={placeholder} alt="My face :D" />
       </div>
     </div>
   )

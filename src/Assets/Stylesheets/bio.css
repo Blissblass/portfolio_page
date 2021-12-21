@@ -7,3 +7,9 @@
   align-items: center;
   justify-content: center;
 }
+
+.bio-image {
+  clip-path: circle();
+  height: 50px;
+  width: 70px;
+}

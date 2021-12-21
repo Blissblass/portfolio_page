@@ -19,6 +19,7 @@
   color: rgb(26, 26, 26);
   animation-name: intro-fade-in;
   animation-duration: 1s;
+  margin-bottom: 100px;
 }
 
 .header-fade {
