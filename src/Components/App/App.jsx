@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Bio from "../Bio/Bio";
 import Intro from "../Intro/Intro";
+import Container from '../Container/Container';
 
 const App = () => {
   const [playingIntro, setPlayingIntro] = useState(true);
@@ -11,7 +11,7 @@ const App = () => {
       {playingIntro ? 
         null
       :
-        <Bio />
+      <Container />
       }
     </div>
   )

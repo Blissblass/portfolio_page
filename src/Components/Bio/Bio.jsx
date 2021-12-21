@@ -1,5 +1,5 @@
 import '../../Assets/Stylesheets/bio.css';
-import placeholder from '../../Assets/Images/placeholder.jpg'
+import placeholder from '../../Assets/Images/placeholder.png'
 
 const Bio = () => {
 
