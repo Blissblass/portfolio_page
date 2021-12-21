@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import '../Stylesheets/App.css';
+import '../../Stylesheets/intro.css';
 
-function Intro() {
+const Intro = () => {
   const intros = ["hi", "my name's Eray", "but you can call me hired ;)"]; // Use an array of strings to make maintaining easier
   const [text, setText] = useState(intros[0]);
 
