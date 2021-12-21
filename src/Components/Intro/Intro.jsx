@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../../Stylesheets/intro.css';
+import '../../Assets/Stylesheets/intro.css';
 
 const Intro = (props) => {
   const intros = ["hi", "my name's Eray", "but you can call me hired ;)"]; // Use an array of strings to make maintaining easier

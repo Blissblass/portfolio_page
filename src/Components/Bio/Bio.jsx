@@ -1,9 +1,12 @@
+import '../../Assets/Stylesheets/bio.css';
 
 const Bio = () => {
 
   return(
     <div className="bio-container">
-      {[...Array(50)].map((x, i) => <p>Bio {i}! :D</p>)}
+      <div className="bio">
+        <img className="bio-image" src={'../../Assets/Images/placeholder.png'} alt="My face :D" />
+      </div>
     </div>
   )
 };
