@@ -13,7 +13,7 @@
 }
 
 .intro-text {
-  font-size: calc(85px + 2vmin);
+  font-size: calc(85px + 0.5vmin);
   color: rgb(26, 26, 26);
   animation-name: intro-fade-in;
   animation-duration: 1s;

@@ -23,7 +23,7 @@ function Intro() {
   return (
     <div className="intro">
       <header className="intro-header">
-        <p className="intro-text">{text}</p>
+        <p key={text} className="intro-text">{text}</p>
       </header>
     </div>
   );
