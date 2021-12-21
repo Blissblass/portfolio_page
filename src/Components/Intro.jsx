@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import '../Stylesheets/App.css';
 
 function Intro() {
-  const intros = ["hi", "my name's Eray", "but you can call me hired ;)"];
+  const intros = ["hi", "my name's Eray", "but you can call me hired ;)"]; // Use an array of strings to make maintaining easier
   const [text, setText] = useState(intros[0]);
 
   useEffect(() => {
@@ -23,10 +23,13 @@ function Intro() {
     }
   }, []);
 
+ // We use a key={} on the <p> element because React re-renders an element if it's key changes, we do this to ensure our fade anim
+  // plays on every single time {text} changes.
+
   return (
     <div className="intro">
       <header className="intro-header">
-        <p key={text} className="intro-text">{text}</p>
+        <p key={text} className="intro-text">{text}</p> 
       </header>
     </div>
   );
