@@ -12,11 +12,14 @@ function Intro() {
         console.log(textIdx);
         textIdx += 1;
         setText(intros[textIdx]);
+      } else {
+        clearInterval(introInterval);
+        console.log("intro done!");
       }
-    }, 1000);
+    }, 2000);
 
     return() => {
-      clearInterval(introInterval);
+      clearInterval(introInterval); // Keep this part for future skip button
     }
   }, []);
 
