@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './Stylesheets/index.css';
+import Intro from './Components/Intro';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Intro />
   </React.StrictMode>,
   document.getElementById('root')
 );
