@@ -1,20 +1,24 @@
 import { useState, useEffect } from 'react';
 import '../../Stylesheets/intro.css';
 
-const Intro = () => {
+const Intro = (props) => {
   const intros = ["hi", "my name's Eray", "but you can call me hired ;)"]; // Use an array of strings to make maintaining easier
   const [text, setText] = useState(intros[0]);
+  const [isOver, setIsOver] = useState(false);
+  const { setPlayingIntro } = props;
 
   useEffect(() => {
     let textIdx = 0; // We already know we're starting at 0, so initialize a new index tracker here
     let introInterval = setInterval(() => {
       if(textIdx < intros.length - 1) {
         console.log(textIdx);
-        textIdx += 1;
+        textIdx ++;
         setText(intros[textIdx]);
       } else {
         clearInterval(introInterval);
         console.log("intro done!");
+        setIsOver(true);
+        setPlayingIntro(false);
       }
     }, 2000);
 
@@ -28,7 +32,7 @@ const Intro = () => {
 
   return (
     <div className="intro">
-      <header className="intro-header">
+      <header className={`intro-header${isOver ? " header-fade" : ""}`}>
         <p key={text} className="intro-text">{text}</p> 
       </header>
     </div>
