@@ -15,11 +15,11 @@
 .intro-text {
   font-size: calc(85px + 2vmin);
   color: rgb(26, 26, 26);
-  animation-name: intro-fade;
+  animation-name: intro-fade-in;
   animation-duration: 1s;
 }
 
-@keyframes intro-fade {
+@keyframes intro-fade-in {
   from {
     opacity: 0%;
   }
