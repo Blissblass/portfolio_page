@@ -20,7 +20,7 @@
   border: 6px solid black;
   position: relative;
   animation-name: bio-image-slide;
-  animation-duration: 1.9s;
+  animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -32,7 +32,7 @@
 .text-1 {
   position: relative;
   animation-name: text-1-slide;
-  animation-duration: 2.2s;
+  animation-duration: 1.6s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -40,15 +40,15 @@
 .text-2 {
   position: relative;
   animation-name: text-2-slide;
-  animation-duration: 2.2s;
+  animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 
 .text-3 {
   position: relative;
-  animation-name: text-2-slide;
-  animation-duration: 1.9s;
+  animation-name: text-3-slide;
+  animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
@@ -67,7 +67,7 @@
 
 @keyframes text-2-slide {
   from {
-    left: 1800px;
+    left: 1200px;
   }
 
   to {
@@ -75,7 +75,7 @@
   }
 }
 
-@keyframes text-2-slide {
+@keyframes text-3-slide {
   from {
     left: 1000px;
   }
