@@ -18,6 +18,11 @@
 .bio-image {
   border-radius: 50%;
   border: 6px solid black;
+  position: relative;
+  animation-name: bio-image-slide;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 .bio-text {
@@ -77,5 +82,14 @@
 
   to {
     left: 0;
+  }
+}
+
+@keyframes bio-image-slide {
+  from {
+    right: 1000px;
+  }
+  to {
+    right: 0;
   }
 }
