@@ -10,4 +10,5 @@
 
 .bio-image {
   border-radius: 50%;
+  border: 6px solid black;
 }
