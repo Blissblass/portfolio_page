@@ -32,6 +32,24 @@
   animation-fill-mode: forwards;
 }
 
+.text-2 {
+  position: relative;
+  animation-name: text-2-slide;
+  animation-duration: 2.2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.text-3 {
+  position: relative;
+  animation-name: text-2-slide;
+  animation-duration: 1.9s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+/* Animations */
+
 @keyframes text-1-slide {
   from {
     left: 1600px;
@@ -42,14 +60,6 @@
   }
 }
 
-.text-2 {
-  position: relative;
-  animation-name: text-2-slide;
-  animation-duration: 2.2s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-}
-
 @keyframes text-2-slide {
   from {
     left: 1800px;
@@ -58,14 +68,6 @@
   to {
     left: 0;
   }
-}
-
-.text-3 {
-  position: relative;
-  animation-name: text-2-slide;
-  animation-duration: 1.9s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
 }
 
 @keyframes text-2-slide {
