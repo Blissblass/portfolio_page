@@ -2,8 +2,8 @@
 const Works = () => {
 
   return(
-    <div>
-
+    <div className="works-container">
+      
     </div>
   )
 };
