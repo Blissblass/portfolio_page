@@ -1,6 +1,5 @@
 .bio-container {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f2da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,7 +7,18 @@
   justify-content: center;
 }
 
+.bio {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .bio-image {
   border-radius: 50%;
   border: 6px solid black;
+}
+
+.bio-text {
+  text-align: right;
 }
