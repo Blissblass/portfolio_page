@@ -8,9 +8,9 @@ const Bio = () => {
       <div className="bio">
         <img className="bio-image" src={placeholder} alt="My face :D" />
         <div className="bio-text">
-          <h1>Hi there!</h1>
-          <h1>I'm <span className="bio-span">Eray Alkış,</span></h1>
-          <h1>a software developer based in Turkey.</h1>
+          <h1 className="text-1">Hi there!</h1>
+          <h1 className="text-2">I'm <span className="bio-span">Eray Alkış,</span></h1>
+          <h1 className="text-3">a software developer based in Turkey.</h1>
         </div>
       </div>
     </div>
