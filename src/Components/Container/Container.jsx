@@ -1,11 +1,10 @@
-import Welcome from '../Welcome/Welcome';
-import '../../Assets/Stylesheets/container.css';
+import Bio from "../Bio/Bio";
 
 const Container = () => {
 
   return(
-    <div className="app-container">
-      <Welcome />
+    <div>
+      <Bio />
     </div>
   )
 };
