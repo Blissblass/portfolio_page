@@ -13,8 +13,8 @@ const WorkItem = (props) => {
         {props.link}
       </div>
       <div className="work-buttons">
-        <input type="button" className="work-button-1" value="Demo" />
-        <input type="button" className="work-button-2" value="Code" />
+        <a href="/google.com" type="button" className="work-button-1">Demo</a>
+        <a href="/google.com" type="button" className="work-button-2">Code</a>
       </div>
     </div>
   )

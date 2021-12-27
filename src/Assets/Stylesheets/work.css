@@ -24,13 +24,18 @@
   margin-top: 20px;
 }
 
-input[class^="work-button"] {
+a[class^="work-button"] {
   background-color: rgb(255, 255, 91);
   font-family: "Montserrat", sans-serif;
   border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
   flex: 1;
+  display: inline-block;
   padding: 15px;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .work-button-1 {
