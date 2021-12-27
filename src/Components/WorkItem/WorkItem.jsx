@@ -1,8 +1,9 @@
+import '../../Assets/Stylesheets/work.css';
 
 const WorkItem = (props) => {
 
   return(
-    <div>
+    <div className="workItem">
       {props.name}
       {props.link}
     </div>

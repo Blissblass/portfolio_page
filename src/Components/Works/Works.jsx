@@ -5,7 +5,7 @@ import WorkItem from '../WorkItem/WorkItem';
 const Works = () => {
 
   return(
-    <div className="works-container">
+    <div className="works">
       {works.map(work => <WorkItem name={work.name} link={work.link} demoLink={work.demoLink} />)}
     </div>
   )
