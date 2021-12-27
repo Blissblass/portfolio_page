@@ -1,9 +1,16 @@
-.works {
+.works-container {
   min-height: 100vh;
   min-width: 100%;
+}
+
+.works {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   overflow-x: hidden;
+}
+
+.works-header {
+  text-align: center;
 }
