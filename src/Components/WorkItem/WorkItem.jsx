@@ -10,7 +10,7 @@ const WorkItem = (props) => {
       </a>
       <div className="work-description">
         <h3>{props.name}</h3>
-        {props.link}
+        {props.description}
       </div>
       <div className="work-buttons">
         <a href="/google.com" type="button" className="work-button-1">Demo</a>

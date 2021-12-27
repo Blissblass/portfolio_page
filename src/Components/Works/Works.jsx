@@ -8,7 +8,7 @@ const Works = () => {
     <div className="works-container">
       <h1 className="works-header">Personal Projects</h1> 
       <div className="works">
-        {works.map(work => <WorkItem name={work.name} link={work.link} demoLink={work.demoLink} />)}
+        {works.map(work => <WorkItem name={work.name} link={work.link} demoLink={work.demoLink} description={work.description} />)}
       </div>
     </div>
   )
