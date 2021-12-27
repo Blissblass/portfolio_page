@@ -6,6 +6,7 @@
   border-radius: 5px;
   overflow: hidden;
   background-color: rgb(255, 255, 249);
+  box-shadow: 0 0 3px rgb(46, 46, 46);
   transition: box-shadow 500ms;
 }
 
@@ -37,6 +38,8 @@ a[class^="work-button"] {
   padding: 15px;
   font-size: 17px;
   cursor: pointer;
+  transition: all 500ms;
+  transition-property: background-color, color;
 }
 
 .work-button-1 {
@@ -49,4 +52,9 @@ a[class^="work-button"] {
 
 .work-item:hover {
   box-shadow: 0 0 15px rgb(46, 46, 46);
+}
+
+a[class^="work-button"]:hover {
+  color: white;
+  background-color: #0f00db;
 }
