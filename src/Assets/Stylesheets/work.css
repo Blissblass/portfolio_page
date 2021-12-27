@@ -5,10 +5,11 @@
   border: 1px solid black;
   margin: 20px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
-.work-name {
-  margin-left: 2px;
+.work-description {
+  margin-left: 5px;
 }
 
 .work-thumbnail {
@@ -24,14 +25,12 @@
 }
 
 input[class^="work-button"] {
-  background-color: rgb(255, 255, 196);
+  background-color: rgb(255, 255, 91);
   font-family: "Montserrat", sans-serif;
   border: none;
   flex: 1;
-}
-
-input[class^="work-button"]:hover {
-  background-color: red;
+  padding: 15px;
+  font-size: 17px;
 }
 
 .work-button-1 {
@@ -40,4 +39,34 @@ input[class^="work-button"]:hover {
 
 .work-button-2 {
   border-radius: 0 0 5px 0;
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.fade-out {
+  animation-name: fade-out;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+@keyframes fade-in {
+  from {
+  }
+  to {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+@keyframes fade-out {
+  from {
+  }
+  to {
+    background-color: rgb(255, 255, 91);
+  }
 }
