@@ -6,7 +6,7 @@ const Works = () => {
 
   return(
     <div className="works-container">
-      {works.map(work => <WorkItem name={work.name} />)}
+      {works.map(work => <WorkItem name={work.name} link={work.link} demoLink={work.demoLink} />)}
     </div>
   )
 };
