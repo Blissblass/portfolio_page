@@ -55,10 +55,10 @@ a[class^="work-button"] {
 .button-disabled {
   cursor: not-allowed;
   pointer-events: none;
-  text-decoration: line-through !important;
+  color: rgb(56, 56, 56) !important;
+  background-color: #fffad1 !important;
 }
-
-.work-item::after {
+rgb(255, 250, 205) .work-item::after {
   content: "";
   position: absolute;
   z-index: -1;
