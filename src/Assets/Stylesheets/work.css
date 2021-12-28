@@ -8,7 +8,7 @@
   background-color: rgb(255, 255, 249);
   box-shadow: 0 0 3px rgb(46, 46, 46);
   transition: all 500ms;
-  transition-property: box-shadow, transform;
+  transition-property: transform;
   z-index: 1;
 }
 
@@ -58,25 +58,8 @@ a[class^="work-button"] {
   color: rgb(56, 56, 56) !important;
   background-color: #fffad1 !important;
 }
-rgb(255, 250, 205) .work-item::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 400px;
-  height: 425px;
-  opacity: 0;
-  border-radius: 5px;
-  box-shadow: 0 0 17px rgb(68, 68, 68);
-  transition: all 0.3s ease-in-out;
-  transition-property: opacity, transform;
-}
 
 .work-item:hover {
-  transform: scale(1.03);
-}
-
-.work-item:hover::after {
-  opacity: 1;
   transform: scale(1.03);
 }
 

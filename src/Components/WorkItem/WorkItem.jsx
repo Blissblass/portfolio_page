@@ -13,9 +13,9 @@ const WorkItem = (props) => {
         {props.description}
       </div>
       <div className="work-buttons">
+        <a href={props.link} target="_blank" rel="noreferrer" className="work-button-2">Code</a>
         <a href={props.demoLink} target="_blank" rel="noreferrer" 
         className={`work-button-1${props.demoLink ? "" : " button-disabled"}`}>Demo</a>
-        <a href={props.link} target="_blank" rel="noreferrer" className="work-button-2">Code</a>
       </div>
     </div>
   )
