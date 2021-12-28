@@ -1,14 +1,17 @@
+import '../../Assets/Stylesheets/welcome.css';
+import placeholder from '../../Assets/Images/placeholder.png'
 
 const Welcome = () => {
 
-  // First screen you see on startup, has option to go to bio or check out works
-
   return(
-    <div className="welcome">
-      <div className="welcome-text">
-        <h3>Welcome, I'm <span className="welcome-text-span">Eray Alkış</span></h3>
-        <h4>I'm a software developer based in Turkey.</h4>
-        <hr></hr>
+    <div className="bio-container">
+      <div className="bio">
+        <img className="bio-image" src={placeholder} alt="My face :D" />
+        <div className="bio-text">
+          <h1 className="text-1">Hi there!</h1>
+          <h1 className="text-2">I'm <span className="bio-span">Eray Alkış,</span></h1>
+          <h1 className="text-3">a software developer based in Turkey.</h1>
+        </div>
       </div>
     </div>
   )
