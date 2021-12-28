@@ -1,4 +1,4 @@
-.bio-container {
+.welcome-container {
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -8,14 +8,14 @@
   overflow-x: hidden;
 }
 
-.bio {
+.welcome {
   min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.bio-image {
+.welcome-image {
   border-radius: 50%;
   border: 6px solid black;
   position: relative;
@@ -25,7 +25,7 @@
   animation-fill-mode: forwards;
 }
 
-.bio-text {
+.welcome-text {
   text-align: right;
 }
 
@@ -91,5 +91,27 @@
   }
   to {
     right: 0;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .welcome-container {
+    position: relative;
+  }
+
+  .welcome {
+    flex-direction: column;
+    transform: scale(0.8);
+    overflow-x: hidden;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 360) {
+  .welcome {
+    transform: scale(0.8);
   }
 }

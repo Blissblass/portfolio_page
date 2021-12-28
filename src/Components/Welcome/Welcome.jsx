@@ -4,10 +4,10 @@ import placeholder from '../../Assets/Images/placeholder.png'
 const Welcome = () => {
 
   return(
-    <div className="bio-container">
-      <div className="bio">
-        <img className="bio-image" src={placeholder} alt="My face :D" />
-        <div className="bio-text">
+    <div className="welcome-container">
+      <div className="welcome">
+        <img className="welcome-image" src={placeholder} alt="My face :D" />
+        <div className="welcome-text">
           <h1 className="text-1">Hi there!</h1>
           <h1 className="text-2">I'm <span className="bio-span">Eray Alkış,</span></h1>
           <h1 className="text-3">a software developer based in Turkey.</h1>
