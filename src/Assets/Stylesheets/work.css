@@ -51,10 +51,6 @@ a[class^="work-button"] {
   border-radius: 0 0 5px 0;
 }
 
-/* .work-item:hover {
-  box-shadow: 0 0 15px rgb(46, 46, 46);
-} */
-
 .work-item::after {
   content: "";
   position: absolute;
@@ -72,5 +68,5 @@ a[class^="work-button"] {
 }
 
 a[class^="work-button"]:hover {
-  background-color: #fff389;
+  background-color: #f7e549;
 }
