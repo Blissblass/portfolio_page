@@ -7,7 +7,8 @@
   overflow: hidden;
   background-color: rgb(255, 255, 249);
   box-shadow: 0 0 3px rgb(46, 46, 46);
-  transition: box-shadow 500ms;
+  transition: all 500ms;
+  transition-property: box-shadow, transform;
   z-index: 1;
 }
 
@@ -40,7 +41,7 @@ a[class^="work-button"] {
   font-size: 17px;
   cursor: pointer;
   transition: all 500ms;
-  transition-property: background-color, color;
+  transition-property: background-color, flex;
 }
 
 .work-button-1 {
@@ -51,6 +52,12 @@ a[class^="work-button"] {
   border-radius: 0 0 5px 0;
 }
 
+.button-disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: line-through !important;
+}
+
 .work-item::after {
   content: "";
   position: absolute;
@@ -59,7 +66,7 @@ a[class^="work-button"] {
   height: 425px;
   opacity: 0;
   border-radius: 5px;
-  box-shadow: 0 0 15px rgb(46, 46, 46);
+  box-shadow: 0 0 17px rgb(68, 68, 68);
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -67,6 +74,11 @@ a[class^="work-button"] {
   opacity: 1;
 }
 
+.work-item:hover {
+  transform: scale(1.03);
+}
+
 a[class^="work-button"]:hover {
   background-color: #f7e549;
+  flex: 2;
 }
