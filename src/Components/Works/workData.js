@@ -32,7 +32,7 @@ const works = [
     name: "Discord AO3 Update Tracker",
     link: "https://github.com/Blissblass/python_ao3_bot",
     demoLink: "https://top.gg/en/bot/882596640479936533",
-    imgLink: "https://i.imgur.com/KXXYpno.png",
+    imgLink: "https://i.imgur.com/ic8rIlI.png",
     description: `An update tracker for the popular literature site AO3 that is meant to work on Discord. \n
     Users can add works they're reading to the app's database to be notified when a work gets updated.`
   },
@@ -41,7 +41,7 @@ const works = [
     name: "Rails API for Toyhouse",
     link: "https://github.com/Blissblass/toyhouse_rails_api",
     demoLink: null,
-    imgLink: "https://i.imgur.com/KXXYpno.png",
+    imgLink: "https://i.imgur.com/ic8rIlI.png",
     description: `This is an API built for the character sharing website Toyhou.se. \n 
     Users can add any link for a character/user they want as a paramater and get the desired info back as a JSON object.`
   },
@@ -50,7 +50,7 @@ const works = [
     name: "Toyhouse Downloader",
     link: "https://github.com/Blissblass/toyhouse_downloader",
     demoLink: "https://blissblass.github.io/toyhouse_downloader",
-    imgLink: "https://user-images.githubusercontent.com/80722863/147422603-55c4f824-f499-45d9-b988-b4c07c62ccc7.png",
+    imgLink: "https://i.imgur.com/LkBvsvF.png",
     description: `An addition to the previously mentioned API. \n
     This site lets you download the gallery of any character hosted on Toyhou.se with just a simple button click!`
   }
