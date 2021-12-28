@@ -1,6 +1,7 @@
 import Welcome from "../Welcome/Welcome";
 import Works from "../Works/Works";
 import '../../Assets/Stylesheets/container.css'
+import Bio from "../Bio/Bio";
 
 const Container = () => {
 
@@ -8,6 +9,7 @@ const Container = () => {
     <div className="app-container">
       <Welcome />
       <Works />
+      <Bio />
     </div>
   )
 };

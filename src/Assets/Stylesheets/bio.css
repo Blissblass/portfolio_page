@@ -1,0 +1,13 @@
+.bio-container {
+  min-height: 100vh;
+}
+
+.bio-header {
+  text-align: center;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
