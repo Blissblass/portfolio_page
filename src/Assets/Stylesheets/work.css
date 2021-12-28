@@ -67,14 +67,16 @@ a[class^="work-button"] {
   opacity: 0;
   border-radius: 5px;
   box-shadow: 0 0 17px rgb(68, 68, 68);
-  transition: opacity 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transition-property: opacity, transform;
+}
+
+.work-item:hover {
+  transform: scale(1.03);
 }
 
 .work-item:hover::after {
   opacity: 1;
-}
-
-.work-item:hover {
   transform: scale(1.03);
 }
 
