@@ -28,6 +28,12 @@ div[class^="contact-button"] {
 }
 
 .mail-ico {
-  font-size: 40px;
+  font-size: 45px;
   margin-left: 5px;
+  cursor: pointer;
+}
+
+.contact-button-email {
+  margin-top: 15px;
+  cursor: default !important;
 }
