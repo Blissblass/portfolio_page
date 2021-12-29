@@ -1,4 +1,5 @@
 import '../../Assets/Stylesheets/bio.css';
+import Contact from '../Contact/Contact';
 
 const Bio = () => {
 
@@ -17,6 +18,7 @@ const Bio = () => {
           <p>Currently, I'm looking to join a close-knit team that would welcome a detail-oriented, ambitious fast learner.</p>
         </div>
       </div>
+      <Contact />
     </div>
   )
 };

@@ -13,6 +13,7 @@ const Works = () => {
             description={work.description} imgLink={work.imgLink} />)}
         </div>
       </div>
+      <hr className="works-divider" />  
     </div>
   )
 };

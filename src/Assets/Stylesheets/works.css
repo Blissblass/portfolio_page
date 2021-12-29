@@ -15,3 +15,11 @@
 .works-header {
   text-align: center;
 }
+
+.works-divider {
+  color: black;
+  display: block;
+  position: relative;
+  height: 1px;
+  top: 30px;
+}
