@@ -1,0 +1,9 @@
+.contact-container {
+  min-width: 100%;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
