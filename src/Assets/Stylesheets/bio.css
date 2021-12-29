@@ -3,12 +3,12 @@
 }
 
 .bio-header {
+  margin-top: 50px;
   text-align: center;
 }
 
 .bio {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
 }
