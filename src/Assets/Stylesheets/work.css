@@ -64,6 +64,6 @@ a[class^="work-button"] {
 }
 
 a[class^="work-button"]:hover {
-  background-color: #f7e549;
+  background-color: #fdec50;
   flex: 2;
 }

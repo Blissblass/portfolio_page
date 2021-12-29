@@ -43,7 +43,7 @@ const works = [
     demoLink: null,
     imgLink: "https://i.imgur.com/Aayj4Vs.png",
     description: `This is an API built for the character sharing website Toyhou.se. \n 
-    Users can add any link for a character/user they want as a paramater and get the desired info back as a JSON object.`
+    Users can add any ID for a character/user they want as a paramater and get the desired info back as a JSON object.`
   },
 
   {

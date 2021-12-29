@@ -13,6 +13,7 @@ const Welcome = () => {
           <h1 className="text-3">a software developer based in Turkey.</h1>
         </div>
       </div>
+      <hr className="divider" />
     </div>
   )
 };

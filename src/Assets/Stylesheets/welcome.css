@@ -53,6 +53,19 @@
   animation-fill-mode: forwards;
 }
 
+.divider {
+  color: black;
+  display: block;
+  position: relative;
+  height: 1px;
+  top: 100px;
+
+  animation-name: divider-enlarge;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
 /* Animations */
 
 @keyframes text-1-slide {
@@ -91,6 +104,17 @@
   }
   to {
     right: 0;
+  }
+}
+
+@keyframes divider-enlarge {
+  from {
+    opacity: 0%;
+    width: 0%;
+  }
+  to {
+    opacity: 1;
+    width: 90%;
   }
 }
 
