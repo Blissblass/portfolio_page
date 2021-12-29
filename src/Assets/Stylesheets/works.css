@@ -17,9 +17,9 @@
 }
 
 .works-divider {
-  color: black;
   display: block;
   position: relative;
   height: 1px;
+  width: 90%;
   top: 30px;
 }

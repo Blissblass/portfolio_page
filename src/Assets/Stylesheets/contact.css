@@ -6,4 +6,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
+}
+
+.contact-linkedin {
+  background-color: #fff389;
+  padding: 10px 18px 10px 18px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkedin-ico {
+  font-size: 45px;
 }
