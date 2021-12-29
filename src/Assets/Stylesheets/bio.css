@@ -12,3 +12,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.bio-text {
+  width: 75%;
+}

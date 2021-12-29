@@ -14,7 +14,7 @@ const Bio = () => {
           <p>More recently though, I've been focused on learning other programming languages and mobile development.</p>
 
           <br/>
-          <p>Currently, I'm looking to join</p>
+          <p>Currently, I'm looking to join a close-knit team that would welcome a detail-oriented, ambitious fast learner.</p>
         </div>
       </div>
     </div>
