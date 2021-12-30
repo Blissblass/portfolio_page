@@ -8,6 +8,11 @@ const Navbar = () => {
     setShowSection(old => !old);
   };
 
+  const handleScroll = (attr) => {
+    const ele = document.querySelector(`.${attr}`);
+    ele.scrollIntoView(true);
+  };
+
   return(
     <div>
       <nav className="navbar">
@@ -18,10 +23,20 @@ const Navbar = () => {
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
           <ul className="nav-list">
-            <li className="nav-list-item">Welcome</li>
-            <li className="nav-list-item">My Works</li>
-            <li className="nav-list-item">About Me</li>
-            <li className="nav-list-item">Contact</li>
+            <a href="#welcome">
+              <li className="nav-list-item" data-key="welcome-container">
+                Welcome
+              </li>
+            </a>
+            <li className="nav-list-item" data-key="works-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
+              My Works
+            </li>
+            <li className="nav-list-item" data-key="bio-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
+              About Me
+            </li>
+            <li className="nav-list-item" data-key="bio-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
+              Contact
+            </li>
           </ul>
         </div>
       </nav>

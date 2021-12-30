@@ -4,7 +4,7 @@ import placeholder from '../../Assets/Images/placeholder.png'
 const Welcome = () => {
 
   return(
-    <div className="welcome-container">
+    <div className="welcome-container" id="welcome">
       <div className="welcome">
         <img className="welcome-image" src={placeholder} alt="My face :D" />
         <div className="welcome-text">

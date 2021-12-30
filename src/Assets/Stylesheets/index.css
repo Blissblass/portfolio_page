@@ -14,3 +14,7 @@ body {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
+
+html {
+  scroll-behavior: smooth;
+}
