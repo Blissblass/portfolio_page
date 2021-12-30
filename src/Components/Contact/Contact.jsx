@@ -6,8 +6,13 @@ const Contact = () => {
 
   const handleMail = () => window.location.assign("mailto:erayalkis@hotmail.com");
   const handleCopy = () => {
+    const button = document.querySelector(".copy-button");
     const email = document.querySelector(".contact-button-email").textContent;
     navigator.clipboard.writeText(email);
+    button.classList.add("copied");
+    setTimeout(() => {
+      button.classList.remove("copied");
+    }, 1000);
   };
 
   return(
@@ -16,7 +21,10 @@ const Contact = () => {
         <h1>Get In Touch</h1>
         <div className="contact-button-linkedin">Linkedin <AiFillLinkedin className="linkedin-ico" /></div>
         <div className="contact-button-email">erayalkis@hotmail.com <GrMail className="mail-ico" onClick={handleMail} /></div>
-        <button className="copy-button" onClick={handleCopy}>Copy to Clipboard</button>
+        <button className="copy-button" onClick={handleCopy}>
+          <p className="copy-button-text">Copy to Clipboard</p>
+          <p className="copy-button-text-confirm">Copied to clipboard!</p>
+        </button>
       </div>
     </div>
   )
