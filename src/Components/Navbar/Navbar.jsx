@@ -16,13 +16,9 @@ const Navbar = () => {
           <hr className="nav-line-2"  />
           <hr className="nav-line-3"  />
         </div>
-        {showSection ? 
-          <div className="nav-section">
-            :3
-          </div>
-        :
-          null  
-        }
+        <div className={`nav-section${showSection ? " section-active" : ""}`}>
+          :3
+        </div>
       </nav>
     </div>
   )

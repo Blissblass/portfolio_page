@@ -38,6 +38,15 @@ hr[class^="nav-line"] {
   top: 0px;
   width: 25%;
   height: 100vh;
+  transform: translateX(500px);
+  transition: all 1s;
+  transition-property: transform, visibility;
+  visibility: hidden;
+}
+
+.nav-section.section-active {
+  transform: translateX(0px);
+  visibility: visible;
 }
 
 @keyframes navbar-slide {
