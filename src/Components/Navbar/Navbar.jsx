@@ -17,7 +17,12 @@ const Navbar = () => {
           <hr className="nav-line-3"  />
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
-          :3
+          <ul className="nav-list">
+            <li className="nav-list-item">Welcome</li>
+            <li className="nav-list-item">My Works</li>
+            <li className="nav-list-item">About Me</li>
+            <li className="nav-list-item">Contact</li>
+          </ul>
         </div>
       </nav>
     </div>

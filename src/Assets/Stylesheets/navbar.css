@@ -38,12 +38,12 @@ div.nav-button.nav-open {
 
 div.nav-button.nav-open .nav-line-1 {
   width: 20px;
-  transform: rotateZ(34deg) translate(9.5px, -0.4px);
+  transform: rotateZ(34deg) translate(9.5px, -0.3px);
 }
 
 div.nav-button.nav-open .nav-line-3 {
   width: 20px;
-  transform: rotateZ(-34deg) translate(9.6px, 0.4px);
+  transform: rotateZ(-34deg) translate(9.6px, 0.3px);
 }
 
 hr[class^="nav-line"] {
@@ -64,11 +64,25 @@ hr[class^="nav-line"] {
   transition: all 1s;
   transition-property: transform, visibility;
   visibility: hidden;
+  box-shadow: 0 0 10px rgb(34, 34, 34);
 }
 
 .nav-section.section-active {
   transform: translateX(0px);
   visibility: visible;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.nav-list-item {
+  font-size: 50px;
+  padding: 20px 0 10px 0;
 }
 
 @keyframes navbar-slide {
