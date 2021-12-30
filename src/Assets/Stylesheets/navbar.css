@@ -84,7 +84,14 @@ hr[class^="nav-line"] {
   font-size: 50px;
   padding: 20px 0 10px 0;
   cursor: pointer;
+  transition: transform 300ms;
 }
+
+.nav-list-item:hover {
+  transform: scale(1.05);
+}
+
+/* Animations */
 
 @keyframes navbar-slide {
   from {
