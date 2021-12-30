@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../../Assets/Stylesheets/navbar.css';
 import listItemData from './listItemData';
+import NavbarListItem from './NavbarListItem';
 
 const Navbar = () => {
   const [showSection, setShowSection] = useState(false);
@@ -24,18 +25,7 @@ const Navbar = () => {
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
           <ul className="nav-list">
-            <li className="nav-list-item" data-key="welcome-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
-              Welcome
-            </li>
-            <li className="nav-list-item" data-key="works-scroll-hidden" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
-              My Works
-            </li>
-            <li className="nav-list-item" data-key="bio-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
-              About Me
-            </li>
-            <li className="nav-list-item" data-key="bio-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
-              Contact
-            </li>
+            {listItemData.map(data => <NavbarListItem text={data.text} attr={data.attr} handleScroll={handleScroll} />)}
           </ul>
         </div>
       </nav>
