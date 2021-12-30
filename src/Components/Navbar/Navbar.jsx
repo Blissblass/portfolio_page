@@ -23,11 +23,9 @@ const Navbar = () => {
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
           <ul className="nav-list">
-            <a href="#welcome">
-              <li className="nav-list-item" data-key="welcome-container">
-                Welcome
-              </li>
-            </a>
+            <li className="nav-list-item" data-key="welcome-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
+              Welcome
+            </li>
             <li className="nav-list-item" data-key="works-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
               My Works
             </li>
