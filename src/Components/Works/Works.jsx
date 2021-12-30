@@ -6,6 +6,8 @@ const Works = () => {
 
   return(
     <div>
+      <div className="works-scroll-hidden">a</div>
+
       <div className="works-container">
         <h1 className="works-header">My works</h1> 
         <div className="works">

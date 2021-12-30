@@ -23,3 +23,8 @@
   width: 90%;
   top: 30px;
 }
+
+.works-scroll-hidden {
+  visibility: hidden;
+  margin-bottom: 10px;
+}

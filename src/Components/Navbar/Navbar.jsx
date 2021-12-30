@@ -26,7 +26,7 @@ const Navbar = () => {
             <li className="nav-list-item" data-key="welcome-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
               Welcome
             </li>
-            <li className="nav-list-item" data-key="works-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
+            <li className="nav-list-item" data-key="works-scroll-hidden" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
               My Works
             </li>
             <li className="nav-list-item" data-key="bio-container" onClick={(e) => handleScroll(e.target.getAttribute("data-key"))}>
