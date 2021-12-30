@@ -13,6 +13,7 @@ const Navbar = () => {
   const handleScroll = (attr) => {
     const ele = document.querySelector(`.${attr}`);
     ele.scrollIntoView(true);
+    setShowSection(false);
   };
 
   return(
