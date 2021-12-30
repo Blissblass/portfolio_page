@@ -2,9 +2,9 @@
 const Navbar = () => {
 
   return(
-    <div>
+    <nav className="navbar">
 
-    </div>
+    </nav>
   )
 };
 
