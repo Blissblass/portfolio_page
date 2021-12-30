@@ -34,6 +34,16 @@ div[class^="contact-button"] {
 }
 
 .contact-button-email {
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: default !important;
+}
+
+.copy-button {
+  background-color: #fff389;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 18px 10px 18px;
+  border: 0;
+  width: 295px;
+  margin-top: 15px;
+  font-size: 20px;
 }
