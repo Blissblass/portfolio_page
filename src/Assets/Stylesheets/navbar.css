@@ -4,16 +4,28 @@
   top: 0;
   z-index: 2;
   width: 100%;
-  padding: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-button {
-  width: 2%;
+  width: 35px;
+  cursor: pointer;
+  margin-right: 30px;
 }
 
 hr[class^="nav-line"] {
-  height: 2px;
+  height: 3px;
   color: black;
   background-color: black;
   border: 0;
+  transform: scale(1);
+}
+
+.nav-section {
+  background-color: red;
+  position: fixed;
+  top: 50px;
+  width: 50%;
 }
