@@ -17,7 +17,7 @@
 
 .welcome-image {
   border-radius: 50%;
-  border: 6px solid black;
+  border: 6px solid rgb(27, 27, 27);
   position: relative;
   animation-name: bio-image-slide;
   animation-duration: 1.5s;
