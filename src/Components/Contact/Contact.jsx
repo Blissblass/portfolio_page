@@ -19,7 +19,9 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact">
         <h1>Get In Touch</h1>
-        <div className="contact-button-linkedin">Linkedin <AiFillLinkedin className="linkedin-ico" /></div>
+        <a href="https://www.linkedin.com/in/eray-alkis-83ab9519b/" target="_blank" rel="noreferrer">
+          <div className="contact-button-linkedin">Linkedin <AiFillLinkedin className="linkedin-ico" /></div>
+        </a>
         <div className="contact-button-email">erayalkis@hotmail.com <GrMail className="mail-ico" onClick={handleMail} /></div>
         <button className="copy-button" onClick={handleCopy}>
           <p className="copy-button-text">Copy to Clipboard</p>

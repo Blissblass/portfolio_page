@@ -42,6 +42,14 @@ div[class^="contact-button"] {
   cursor: default !important;
 }
 
+.contact-button-linkedin {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
 .copy-button {
   background-color: #fff174;
   font-family: "Montserrat", sans-serif;
