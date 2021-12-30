@@ -1,3 +1,4 @@
+import Navbar from '../Navbar/Navbar';
 import Welcome from "../Welcome/Welcome";
 import Works from "../Works/Works";
 import '../../Assets/Stylesheets/container.css'

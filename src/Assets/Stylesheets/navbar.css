@@ -1,0 +1,19 @@
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav-button {
+  width: 2%;
+}
+
+hr[class^="nav-line"] {
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: 0;
+}
