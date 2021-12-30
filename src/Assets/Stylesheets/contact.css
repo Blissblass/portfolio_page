@@ -46,4 +46,5 @@ div[class^="contact-button"] {
   width: 295px;
   margin-top: 15px;
   font-size: 20px;
+  cursor: pointer;
 }
