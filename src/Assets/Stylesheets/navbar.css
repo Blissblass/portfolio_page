@@ -24,6 +24,10 @@ div.nav-button.nav-open {
   transform: scale(1.05);
 }
 
+div.nav-button.nav-open .nav-line-2 {
+  visibility: hidden;
+}
+
 hr[class^="nav-line"] {
   height: 3px;
   color: black;
@@ -33,7 +37,7 @@ hr[class^="nav-line"] {
 }
 
 .nav-section {
-  background-color: red;
+  background-color: #fff389;
   position: absolute;
   top: 0px;
   width: 25%;
