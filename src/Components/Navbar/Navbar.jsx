@@ -11,7 +11,7 @@ const Navbar = () => {
   return(
     <div>
       <nav className="navbar">
-        <div className="nav-button" onClick={handleClick}>
+        <div className={`nav-button${showSection ? " nav-open" : ""}`} onClick={handleClick}>
           <hr className="nav-line-1" />
           <hr className="nav-line-2"  />
           <hr className="nav-line-3"  />
