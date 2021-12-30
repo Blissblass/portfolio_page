@@ -8,6 +8,7 @@ const Container = () => {
   return(
     <div className="app-container">
       <div className="app-bg">
+        <Navbar />
         <Welcome />
         <Works />
         <Bio />
