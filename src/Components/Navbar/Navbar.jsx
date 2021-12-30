@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../../Assets/Stylesheets/navbar.css';
+import listItemData from './listItemData';
 
 const Navbar = () => {
   const [showSection, setShowSection] = useState(false);
