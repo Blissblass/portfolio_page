@@ -7,12 +7,16 @@
   padding: 5px;
   display: flex;
   justify-content: flex-end;
+  animation-name: navbar-slide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .nav-button {
   width: 35px;
   cursor: pointer;
   margin-right: 30px;
+  z-index: 2;
 }
 
 hr[class^="nav-line"] {
@@ -25,7 +29,31 @@ hr[class^="nav-line"] {
 
 .nav-section {
   background-color: red;
-  position: fixed;
-  top: 50px;
-  width: 50%;
+  position: absolute;
+  top: 0px;
+  width: 25%;
+  height: 100vh;
+  animation-name: nav-section-slide;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes navbar-slide {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes nav-section-slide {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0;
+  }
 }
