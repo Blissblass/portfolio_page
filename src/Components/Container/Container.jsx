@@ -12,15 +12,17 @@ const Container = () => {
     });
 
     return() => {
-      document.removeEventListener(scrollListener);
+      document.removeEventListener("scroll", scrollListener);
     }
   })
 
   return(
     <div className="app-container">
-      <Welcome />
-      <Works />
-      <Bio />
+      <div className="app-bg">
+        <Welcome />
+        <Works />
+        <Bio />
+      </div>
     </div>
   )
 };
