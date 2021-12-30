@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
           <ul className="nav-list">
-            {listItemData.map(data => <NavbarListItem text={data.text} attr={data.attr} handleScroll={handleScroll} />)}
+            {listItemData.map(data => <NavbarListItem key={data.text} text={data.text} attr={data.attr} handleScroll={handleScroll} />)}
           </ul>
         </div>
       </nav>
