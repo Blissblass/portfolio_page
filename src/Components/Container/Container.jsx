@@ -9,6 +9,7 @@ const Container = () => {
   useEffect(() => {
     let scrollListener = document.addEventListener("scroll", () => {
       const bg = document.getElementById("bg");
+      bg.style.backgroundPositionX = `${window.scrollX}px`;
     });
 
     return() => {
