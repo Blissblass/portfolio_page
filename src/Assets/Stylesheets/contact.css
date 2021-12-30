@@ -33,6 +33,7 @@ div[class^="contact-button"] {
   font-size: 45px;
   margin-left: 5px;
   cursor: pointer;
+  transition: transform 300ms;
 }
 
 .contact-button-email {
@@ -61,4 +62,12 @@ div[class^="contact-button"] {
 .copy-button:hover {
   background-color: #fdec50;
   width: 320px;
+}
+
+.mail-ico:hover {
+  transform: scale(1.07);
+}
+
+.copy-button:active {
+  background-color: #fff9c3;
 }
