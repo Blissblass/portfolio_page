@@ -1,12 +1,11 @@
-import Navbar from '../Navbar/Navbar';
+import Navbar from "../Navbar/Navbar";
 import Welcome from "../Welcome/Welcome";
 import Works from "../Works/Works";
-import '../../Assets/Stylesheets/container.css'
+import "../../Assets/Stylesheets/container.css";
 import Bio from "../Bio/Bio";
 
 const Container = () => {
-
-  return(
+  return (
     <div className="app-container">
       <div className="app-bg">
         <Navbar />
@@ -15,7 +14,7 @@ const Container = () => {
         <Bio />
       </div>
     </div>
-  )
+  );
 };
 
 export default Container;

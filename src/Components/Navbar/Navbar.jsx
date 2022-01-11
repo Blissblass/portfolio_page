@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import '../../Assets/Stylesheets/navbar.css';
-import listItemData from './listItemData';
-import NavbarListItem from './NavbarListItem';
+import { useState } from "react";
+import "../../Assets/Stylesheets/navbar.css";
+import listItemData from "./listItemData";
+import NavbarListItem from "./NavbarListItem";
 
 const Navbar = () => {
   const [showSection, setShowSection] = useState(false);
 
   const handleClick = () => {
-    setShowSection(old => !old);
+    setShowSection((old) => !old);
   };
 
   const handleScroll = (attr) => {
@@ -16,22 +16,32 @@ const Navbar = () => {
     setShowSection(false);
   };
 
-  return(
+  return (
     <div>
       <nav className="navbar">
-        <div className={`nav-button${showSection ? " nav-open" : ""}`} onClick={handleClick}>
+        <div
+          className={`nav-button${showSection ? " nav-open" : ""}`}
+          onClick={handleClick}
+        >
           <hr className="nav-line-1" />
-          <hr className="nav-line-2"  />
-          <hr className="nav-line-3"  />
+          <hr className="nav-line-2" />
+          <hr className="nav-line-3" />
         </div>
         <div className={`nav-section${showSection ? " section-active" : ""}`}>
           <ul className="nav-list">
-            {listItemData.map(data => <NavbarListItem key={data.text} text={data.text} attr={data.attr} handleScroll={handleScroll} />)}
+            {listItemData.map((data) => (
+              <NavbarListItem
+                key={data.text}
+                text={data.text}
+                attr={data.attr}
+                handleScroll={handleScroll}
+              />
+            ))}
           </ul>
         </div>
       </nav>
     </div>
-  )
+  );
 };
 
 export default Navbar;

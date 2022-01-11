@@ -1,31 +1,31 @@
-
 const works = [
   {
-    name: 'Social Media App | Twatter',
+    name: "Social Media App | Twatter",
     link: "https://github.com/Blissblass/twatter",
     demoLink: "https://blissblass.github.io/twatter/",
     imgLink: "https://i.imgur.com/nDuEFxo.png",
     description: `A social media mockup site built for an App Academy course.\n
-    Users can post, like posts, follow each other, and attach images/videos to their posts.`
+    Users can post, like posts, follow each other, and attach images/videos to their posts.`,
   },
 
   {
     name: "Media Sharing App | Sound.io",
     link: "https://github.com/Blissblass/media_sharing_app",
     demoLink: "https://blissblass.github.io/media_sharing_app/",
-    imgLink: "https://camo.githubusercontent.com/3aec73d29817ee8f9a825310bfb4067ff88014c2a48b7d2e00d92768275d8608/68747470733a2f2f692e696d6775722e636f6d2f7a496a675776772e706e67",
+    imgLink:
+      "https://camo.githubusercontent.com/3aec73d29817ee8f9a825310bfb4067ff88014c2a48b7d2e00d92768275d8608/68747470733a2f2f692e696d6775722e636f6d2f7a496a675776772e706e67",
     description: `A mockup media sharing site built for an App Acadamy/The Odin Project course. \n
     Users can upload songs, search for songs by name, like songs and leave likes on users.
-    `
+    `,
   },
-  
+
   {
     name: "Productivity App | Task.io",
     link: "https://github.com/Blissblass/productivity_app",
     demoLink: "https://blissblass.github.io/productivity_app",
     imgLink: "https://i.imgur.com/PYUWWWs.png",
     description: `A mockup productivity tracking site built as a personal project. \n
-    Users can create To Do's(Lists), create Tasks for these lists and reorder or delete tasks by dragging.`
+    Users can create To Do's(Lists), create Tasks for these lists and reorder or delete tasks by dragging.`,
   },
 
   {
@@ -34,7 +34,7 @@ const works = [
     demoLink: "https://top.gg/en/bot/882596640479936533",
     imgLink: "https://i.imgur.com/ic8rIlI.png",
     description: `An update tracker for the popular literature site AO3 that is meant to work on Discord. \n
-    Users can add works they're reading to the app's database to be notified when a work gets updated.`
+    Users can add works they're reading to the app's database to be notified when a work gets updated.`,
   },
 
   {
@@ -43,7 +43,7 @@ const works = [
     demoLink: null,
     imgLink: "https://i.imgur.com/Aayj4Vs.png",
     description: `This is an API built for the character sharing website Toyhou.se. \n 
-    Users can add any ID for a character/user they want as a paramater and get the desired info back as a JSON object.`
+    Users can add any ID for a character/user they want as a paramater and get the desired info back as a JSON object.`,
   },
 
   {
@@ -52,8 +52,8 @@ const works = [
     demoLink: "https://blissblass.github.io/toyhouse_downloader",
     imgLink: "https://i.imgur.com/LkBvsvF.png",
     description: `An addition to the previously mentioned API. \n
-    This site lets you download the gallery of any character hosted on Toyhou.se with just a simple button click!`
-  }
+    This site lets you download the gallery of any character hosted on Toyhou.se with just a simple button click!`,
+  },
 ];
 
 export default works;

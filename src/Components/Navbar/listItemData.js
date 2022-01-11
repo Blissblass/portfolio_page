@@ -1,21 +1,20 @@
-
 const listItemData = [
   {
     text: "Welcome",
-    attr: "welcome-container"
+    attr: "welcome-container",
   },
   {
     text: "My Works",
-    attr: "works-scroll-hidden"
+    attr: "works-scroll-hidden",
   },
   {
     text: "About Me",
-    attr: "bio-container"
+    attr: "bio-container",
   },
   {
     text: "Contact",
-    attr: "bio-container"
-  }
-]
+    attr: "bio-container",
+  },
+];
 
 export default listItemData;
