@@ -1,6 +1,6 @@
 {
   "name": "portfolio_site",
-  "homepage": "http://blissblass.github.io/portfolio_page",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
