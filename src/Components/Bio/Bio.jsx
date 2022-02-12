@@ -17,8 +17,8 @@ const Bio = () => {
           <p>
             They both have amazing, well-written courses, and projects range
             from some hand-holding at the start to "Build a chess app from
-            scratch!". I was fascinated and just <strong>had</strong> to learn
-            how to do that.
+            scratch!". I was hooked and just <strong>had</strong> to learn how
+            to do that.
           </p>
           <p>
             I spent every single day of the pandemic getting stuck again and
@@ -26,14 +26,18 @@ const Bio = () => {
             mistakes and learned something from each one.
           </p>
           <p>
-            More recently though, I've been focused on learning other
-            programming languages and mobile development.
+            I graduated from App Academy Open in June of 2021, and have worked
+            as a freelancer until now. I've learned a lot from my experiences
+            and keep on improving myself every single day.
           </p>
-
-          <br />
+          <p>
+            More recently though, I've been working on personal projects and
+            learning mobile development with React Native and new backend
+            technologies like ASP.NET.
+          </p>
           <p>
             Currently, I'm looking to join a close-knit team that would welcome
-            a detail-oriented, ambitious fast learner.
+            a detail-oriented, ambitious fast learner!
           </p>
         </div>
       </div>
