@@ -89,6 +89,7 @@ a {
 }
 
 .copy-button.copied .copy-button-text-confirm {
+  margin-top: 2px;
   opacity: 1;
 }
 
