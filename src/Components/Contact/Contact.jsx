@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="contact">
         <h1>Get In Touch</h1>
         <a
-          href="https://www.linkedin.com/in/eray-alkis-83ab9519b/"
+          href="https://www.linkedin.com/in/eray-alk%C4%B1%C5%9F-83ab9519b/"
           target="_blank"
           rel="noreferrer"
         >
