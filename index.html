@@ -263,10 +263,10 @@
         </p>
         <div class="row">
           <div class="col-8 col-12-small">
-            <form method="post" action="#">
+            <form id="emailform" method="POST" action="https://formsubmit.co/erayalkis@hotmail.com">
               <div class="row gtr-uniform gtr-50">
                 <div class="col-6 col-12-xsmall">
-                  <input type="text" name="name" id="name" placeholder="Name" />
+                  <input type="text" name="name" id="name" placeholder="Name" required />
                 </div>
                 <div class="col-6 col-12-xsmall">
                   <input
@@ -274,6 +274,7 @@
                     name="email"
                     id="email"
                     placeholder="Email"
+										required
                   />
                 </div>
                 <div class="col-12">
@@ -282,12 +283,13 @@
                     id="message"
                     placeholder="Message"
                     rows="4"
+										required
                   ></textarea>
                 </div>
               </div>
             </form>
             <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
+              <li><input type="submit" value="Send Message" form="emailform" /></li>
             </ul>
           </div>
           <div class="col-4 col-12-small">
