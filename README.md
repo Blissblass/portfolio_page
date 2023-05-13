@@ -1,71 +1,71 @@
-<p align="center">
-  <img alt="logo" src="./public/images/MB-mono.svg" width="60" />
-</p>
-<h1 align="center">
-  my-site
-</h1>
+# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-![my-site status](https://img.shields.io/website?down_color=red&down_message=offline&label=my-site&up_message=online&url=https%3A%2F%2Fmanpreetbhatti.com%2F)
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-![my-site release](https://img.shields.io/github/release/Manpreet-Bhatti/my-site-2.svg?style=popout-square) ![my-site issues](https://img.shields.io/github/issues/Manpreet-Bhatti/my-site-2.svg?style=popout-square) ![my-site top language](https://img.shields.io/github/languages/top/Manpreet-Bhatti/my-site-2.svg?style=popout-square) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=scss&logoColor=white) ![styled-components](https://img.shields.io/badge/styled&#x2010;components-DD82CA?style=for-the-badge&logo=styled-components&logoColor=white) ![my-site last commit](https://img.shields.io/github/last-commit/Manpreet-Bhatti/my-site-2.svg?style=popout-square) ![my-site license](https://img.shields.io/github/license/Manpreet-Bhatti/my-site-2) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+## Preview
 
-### Personal website of Manpreet Bhatti
+[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
-Check out this [live demo](https://manpreetbhatti.com/) to see my-site in action.
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
-# Getting started
+## Status
 
-## Let's Install
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
 
-Install modules
+## Download and Installation
 
-```shell
-cd my-site
-npm install
-```
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+* Install via npm: `npm i startbootstrap-resume`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
-## Let's Build
+## Usage
 
-Start a development server
+### Basic Usage
 
-```shell
-npm run dev
-```
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-or
-Create and start a production build
+### Advanced Usage
 
-```shell
-npm run build
-npm run start
-```
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-## Let's Customize
+#### Gulp Tasks
 
-> Fork this project for your customization ideas!
->
-> Tip: You should see if these changes work in the development server before building and starting.
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-### Fonts
+## Bugs and Issues
 
-To add custom fonts, make sure to import them into `./components/fonts.js` and change `./components/logo.js` and `./lib/theme.js` accordingly.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
 
-### Colours
+## Custom Builds
 
-To change colours (or add your own), edit `./lib/theme.js` to your liking. There are many instances where colours weren't used from the theme so keep an eye out (colours will be more centralized in the near future)!
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
 
-### Skills
+## About
 
-To showcase your skills, edit `./pages/projects.js` and add your projects to `./pages/projects` and/or edit `./pages/work.js` and add your work to `./pages/work`!
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-### Socials
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-Let others know where they can find you by editing `./pages/index.js` and add your own contact links near the end.
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-## Let's Publish
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-There are many great hosting platforms that will have services to showcase your static websites. I used Next.js for this website which goes perfecty with [Vercel](https://vercel.com/); I advise you use it!
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## License
+## Copyright and License
 
-![my-site license](https://img.shields.io/github/license/Manpreet-Bhatti/my-site-2)
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.

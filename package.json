@@ -1,37 +1,44 @@
 {
-  "name": "my-site-2",
-  "version": "1.0.0",
-  "description": "Personal website of Manpreet Bhatti, a Computer Science student at the University of Toronto Scarborough. If you'd like to see what I have to showcase, visit https://github.com/Manpreet-Bhatti",
-  "private": false,
-  "scripts": {
-    "dev": "next dev -H 0.0.0.0",
-    "build": "next build",
-    "start": "next start",
-    "prettier": "prettier --write .",
-    "lint": "next lint"
-  },
-  "keywords": [],
-  "author": "Manpreet Bhatti",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/Manpreet-Bhatti/my-site-2/blob/main/license"
-    }
+  "title": "Resume",
+  "name": "startbootstrap-resume",
+  "version": "4.0.0-beta.2",
+  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
   ],
+  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+  },
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.9",
-    "@chakra-ui/react": "^2.3.2",
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "framer-motion": "^10.2.0",
-    "next": "^13.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "three": "^0.150.0"
+    "bootstrap": "^4.0.0-beta.2",
+    "devicons": "^1.8.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6",
+    "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0"
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.0",
+    "gulp-header": "1.8.9",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
   }
 }
