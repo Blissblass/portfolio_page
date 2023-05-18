@@ -35,7 +35,7 @@ const Home = ({ children, router }) => {
         />
         <meta property="og:image:type" content="image/svg" />
         <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="400" />
+        <meta property="og:image:height" content="300" />
         <title>Eray Alkış | Home</title>
       </Head>
       <NavBar path={router.asPath} />
