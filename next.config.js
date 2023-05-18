@@ -4,7 +4,6 @@ module.exports = {
     newNextLinkBehavior: false,
   },
   swcMinify: true,
-  assetPrefix: "./",
   images: {
     unoptimized: true,
   },
