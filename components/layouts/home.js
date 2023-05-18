@@ -19,10 +19,14 @@ const Home = ({ children, router }) => {
           name="description"
           content="All about Eray Alkış; I'm a full-stack developer based in Turkey! Get to know me as I showcase my projects, skills, and more!"
         />
+
         <meta name="author" content="Eray Alkış" />
         <link rel="apple-touch-icon" href="ea.svg" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Eray Alkış" />
+        <meta
+          name="og:description"
+          content="All about Eray Alkış; I'm a full-stack developer based in Turkey! Get to know me as I showcase my projects, skills, and more!"
+        />
         <meta name="og:title" content="Eray Alkış" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="ea.svg" />
