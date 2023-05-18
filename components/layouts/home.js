@@ -23,13 +23,19 @@ const Home = ({ children, router }) => {
         <meta name="author" content="Eray Alkış" />
         <link rel="apple-touch-icon" href="ea.svg" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta property="og:title" content="Eray Alkış" />
         <meta
-          name="og:description"
+          property="og:description"
           content="All about Eray Alkış; I'm a full-stack developer based in Turkey! Get to know me as I showcase my projects, skills, and more!"
         />
-        <meta name="og:title" content="Eray Alkış" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="ea.svg" />
+        <meta
+          property="og:image"
+          content="https://erayalkis.onrender.com/images/ea.svg"
+        />
+        <meta property="og:image:type" content="image/svg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
         <title>Eray Alkış | Home</title>
       </Head>
       <NavBar path={router.asPath} />
