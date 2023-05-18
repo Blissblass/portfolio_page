@@ -34,8 +34,8 @@ const Home = ({ children, router }) => {
           content="https://erayalkis.onrender.com/images/ea.png"
         />
         <meta property="og:image:type" content="image/svg" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="150" />
         <title>Eray Alkış | Home</title>
       </Head>
       <NavBar path={router.asPath} />
