@@ -31,7 +31,7 @@ const Home = ({ children, router }) => {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://erayalkis.onrender.com/images/ea.svg"
+          content="https://erayalkis.onrender.com/images/ea.png"
         />
         <meta property="og:image:type" content="image/svg" />
         <meta property="og:image:width" content="400" />
