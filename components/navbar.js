@@ -46,6 +46,7 @@ const menuItems = [
   { name: "Home", href: "/" },
   { name: "Work", href: "/work" },
   { name: "Projects", href: "/projects" },
+  { name: "Resume", href: "/docs/resume.pdf" },
 ];
 
 const Navbar = (props) => {
