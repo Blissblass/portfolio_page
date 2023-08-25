@@ -7,7 +7,7 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "export": "./export.bash",
+    "export": "./export.sh",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
