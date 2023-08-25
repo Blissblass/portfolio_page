@@ -21,8 +21,8 @@ import { IoLogoLinkedin, IoLogoGithub, IoMail } from "react-icons/io5";
 import Image from "next/image";
 import theme from "../lib/theme";
 
+import thumbStatsy from "../public/images/projects/statsy.png";
 import thumbMycoTrack from "../public/images/projects/mycotrack.png";
-import thumbKomishon from "../public/images/projects/komishon.png";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop),
@@ -171,20 +171,20 @@ const Home = () => (
       <Section delay={0.4}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
+            href="https://github.com/erayalkis/statsy"
+            title="Komishon"
+            thumbnail={thumbStatsy}
+          >
+            An Express.js app for tracking your machine&apos;s usage statistics
+            with efficient logging and lightning-fast API endpoints!
+          </GridItem>
+          <GridItem
             href="https://github.com/erayalkis/mycotrack_frontend"
             title="MycoTrack"
             thumbnail={thumbMycoTrack}
           >
             An analytical dashboard and a management system with a focus on
             mushroom growth cycles and substrate efficiency.
-          </GridItem>
-          <GridItem
-            href="https://github.com/erayalkis/komishon"
-            title="Komishon"
-            thumbnail={thumbKomishon}
-          >
-            A desktop application that assists artists and alike in tracking
-            client commissions by providing them with interactive analytics.
           </GridItem>
         </SimpleGrid>
         <Box align="center" my={4}>

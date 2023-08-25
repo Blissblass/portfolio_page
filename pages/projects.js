@@ -26,8 +26,8 @@ const Projects = () => (
             title="Statsy"
             thumbnail={thumbStatsy}
           >
-            An Express.js for tracking your machine&apos;s usage statistics with
-            efficient logging and lightning-fast API endpoints!
+            An Express.js app for tracking your machine&apos;s usage statistics
+            with efficient logging and lightning-fast API endpoints!
           </GridItem>
         </Section>
         <Section>
