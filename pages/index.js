@@ -172,7 +172,7 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://github.com/erayalkis/statsy"
-            title="Komishon"
+            title="Statsy"
             thumbnail={thumbStatsy}
           >
             An Express.js app for tracking your machine&apos;s usage statistics
