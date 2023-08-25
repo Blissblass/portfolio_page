@@ -3,6 +3,7 @@ import { GridItem } from "../components/grid-item";
 import Layout from "../components/layouts/single-column";
 import Section from "../components/section";
 
+import thumbStatsy from "../public/images/projects/statsy.png";
 import thumbMycoTrack from "../public/images/projects/mycotrack.png";
 import thumbKomishon from "../public/images/projects/komishon.png";
 import thumbGoFileRuby from "../public/images/projects/gofile_ruby.png";
@@ -19,6 +20,16 @@ const Projects = () => (
         Projects
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <GridItem
+            href="https://github.com/erayalkis/statsy"
+            title="Statsy"
+            thumbnail={thumbStatsy}
+          >
+            An Express.js for tracking your machine&apos;s usage statistics with
+            efficient logging and lightning-fast API endpoints!
+          </GridItem>
+        </Section>
         <Section>
           <GridItem
             href="https://github.com/erayalkis/mycotrack_frontend"
