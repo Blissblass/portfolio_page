@@ -1,3 +1,5 @@
+# Run `npm run export` instead of running this file manually
+
 echo "Beginning export..."
 
 next build
