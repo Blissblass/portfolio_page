@@ -3,6 +3,7 @@ import { GridItem } from "../components/grid-item";
 import Layout from "../components/layouts/single-column";
 import Section from "../components/section";
 
+import thumbThDesktop from "../public/images/projects/th_desktop.png";
 import thumbStatsy from "../public/images/projects/statsy.png";
 import thumbMycoTrack from "../public/images/projects/mycotrack.png";
 import thumbKomishon from "../public/images/projects/komishon.png";
@@ -20,6 +21,17 @@ const Projects = () => (
         Projects
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <GridItem
+            href="https://github.com/erayalkis/toyhouse_api"
+            title="ToyhouDL Desktop"
+            thumbnail={thumbThDesktop}
+          >
+            A Tauri desktop app that combines the Rafflr and ToyhouDL apps into
+            one, giving the user download speeds that&apos;s more than twice as
+            faster than before.
+          </GridItem>
+        </Section>
         <Section>
           <GridItem
             href="https://github.com/erayalkis/statsy"
