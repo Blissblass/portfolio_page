@@ -63,7 +63,7 @@ const Projects = () => (
         </Section>
         <Section>
           <GridItem
-            href="https://github.com/erayalkis/gofile_ruby"
+            href="https://github.com/erayalkis/toyhouse_downloader"
             title="ToyhouDL"
             thumbnail={thumbToyhouDL}
           >
