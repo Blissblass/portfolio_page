@@ -3,6 +3,7 @@ import { GridItem } from "../components/grid-item";
 import Layout from "../components/layouts/single-column";
 import Section from "../components/section";
 
+import thumbCadenzabox from "../public/images/work/cadenzabox.png";
 import thumbAgentnoon from "../public/images/work/agentnoon.png";
 import thumbFreelance from "../public/images/work/freelance.jpg";
 
@@ -20,6 +21,16 @@ const Work = () => (
         Recent work
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <GridItem
+            href="https://cadenzabox.com"
+            title="Cadenzabox"
+            thumbnail={thumbCadenzabox}
+          >
+           "A library as unique as your music."
+           Cadenzabox makes the music search and delivery process simple and intuitive.
+          </GridItem>
+        </Section>
         <Section>
           <GridItem
             href="https://agentnoon.com"
