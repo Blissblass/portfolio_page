@@ -27,7 +27,7 @@ const Work = () => (
             title="Cadenzabox"
             thumbnail={thumbCadenzabox}
           >
-           "A library as unique as your music."
+           &quot;A library as unique as your music.&quot;
            Cadenzabox makes the music search and delivery process simple and intuitive.
           </GridItem>
         </Section>
